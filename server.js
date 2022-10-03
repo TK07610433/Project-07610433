@@ -25,7 +25,7 @@ async function main() {
     console.log(runmodel);
 }
 
-//http://localhost:3000/test07610433
+//http://localhost:3000/
 app.get('/', (req, res) => {
   main();
   res.send('Run Server!')
